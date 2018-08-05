@@ -5,29 +5,16 @@
  * 3. [T] 限定数组内容和长度的定义 => 元组(Tuple)
  * 4. 接口表示数组
  */
-
 /**
  * 1. T[]
  */
-const test1Array: string[] = ['1', '2'];
-
+var test1Array = ['1', '2'];
 /**
  * 2. Array[T]
  */
-const test2Array = new Array<number>(4);
-
+var test2Array = new Array(4);
 /**
  * 3. [T...]
  */
-const test3Array: [number, string, number] = [1, '2', 3];
-
-/**
- * 4. 接口表示数组
- */
-interface InterfaceArray {
-    [index: number]: number; //动态语言的写法
-}
-
-const test4Array: InterfaceArray = [1, 2, 3];
-
-
+var test3Array = [1, '2', 3];
+var test4Array = [1, 2, 3];

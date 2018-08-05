@@ -45,3 +45,24 @@ class AEndPeople implements HandsomePerson{
         return this.rich;
     }
 }
+
+/**
+ * 接口merge
+ */
+
+interface A {
+    aNumber: number;
+}
+
+interface A {
+    aString: string;
+}
+
+/**
+ * 相当于
+ */
+
+interface A {
+    aNumber: number;
+    aString: string;
+}
