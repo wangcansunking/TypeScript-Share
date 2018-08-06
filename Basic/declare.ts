@@ -15,9 +15,8 @@ declare interface Person {
 
 declare const $: (selector: string) => any;
 
+/**
+ * 前面提过的重载，这里叫做声明合并
+ */
 declare function sum(x: number, y: number): number;
 declare function sum(x: string, y: string): string;
-
-const result:number = sum(1, 2);
-
-

@@ -53,5 +53,9 @@ const sumNumberInterface: SumFunc = (x, y) => x + y;
  * 重载允许函数接受不同的参数，做出不同的处理。
  * 比如上面的sum， 输入number时应该输出number。输入string时输出string
  * 但是JavaScript函数是重写的机制（暂不讨论变量提升）
- * 使用TypeScript可以做到函数声明的重载。但是不是很推荐，我也没用过，后面的 声明 我们会进行讨论。
+ * 使用TypeScript可以做到函数声明的重载，这在一些API库的声明文件中很有用，比如react。
+ * 但是我也没用过，后面的 声明 我们会进行讨论。
+ * 相关讨论
+ * https://segmentfault.com/q/1010000006772350
+ * https://www.zhihu.com/question/63751258
  */

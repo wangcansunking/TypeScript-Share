@@ -118,4 +118,11 @@
 ### Advanced
 ### With React
 
+## 扩展阅读
+1. [Github TypeScript](https://github.com/Microsoft/TypeScript)
+2. [Github TypeScript Samples](https://github.com/Microsoft/TypeScriptSamples)
+3. [Github TypeScript React Starter](https://github.com/Microsoft/TypeScript-React-Starter)
+4. [Github TypeScript 入门教程](https://github.com/xcatliu/typescript-tutorial)
+5. [Github TypeScript Specification](https://github.com/Microsoft/TypeScript/blob/master/doc/spec.md)
+5. [TypeScript Documentation](https://www.typescriptlang.org/docs/home.html)
 
